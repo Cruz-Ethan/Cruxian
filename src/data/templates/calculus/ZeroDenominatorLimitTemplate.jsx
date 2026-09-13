@@ -1,8 +1,8 @@
-import Template from "../../classes/Template.js"
-import Problem from "../../classes/Problem.js"
+import Template from "../../../classes/Template.js"
+import Problem from "../../../classes/Problem.js"
 import { MathJax } from 'better-react-mathjax'
-import randomInteger from "../utils/randomInteger.js"
-import { renderReversePolynomial, renderPolynomial } from "../utils/renderPolynomial.js"
+import randomInteger from "../../utils/randomInteger.js"
+import { renderReversePolynomial, renderPolynomial } from "../../utils/renderPolynomial.js"
 
 export default class NonZeroDenominatorLimitTemplate extends Template {
     generateProblem() {

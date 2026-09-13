@@ -1,10 +1,10 @@
-import Template from "../../classes/Template.js"
-import Problem from "../../classes/Problem.js"
+import Template from "../../../classes/Template.js"
+import Problem from "../../../classes/Problem.js"
 import { MathJax } from 'better-react-mathjax'
-import randomInteger from "../utils/randomInteger.js"
-import renderTerm from "../utils/renderTerm.js"
-import renderPolynomialTerm from "../utils/renderPolynomialTerm.js"
-import getGCD from "../utils/getGCD.js"
+import randomInteger from "../../utils/randomInteger.js"
+import renderTerm from "../../utils/renderTerm.js"
+import renderPolynomialTerm from "../../utils/renderPolynomialTerm.js"
+import getGCD from "../../utils/getGCD.js"
 
 export default class SurdPowerRuleDerivativeTemplate extends Template {
     generateProblem() {

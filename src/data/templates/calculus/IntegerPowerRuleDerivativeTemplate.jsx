@@ -1,8 +1,8 @@
-import Template from "../../classes/Template.js"
-import Problem from "../../classes/Problem.js"
+import Template from "../../../classes/Template.js"
+import Problem from "../../../classes/Problem.js"
 import { MathJax } from 'better-react-mathjax'
-import randomInteger from "../utils/randomInteger.js"
-import renderPolynomialTerm from "../utils/renderPolynomialTerm.js"
+import randomInteger from "../../utils/randomInteger.js"
+import renderPolynomialTerm from "../../utils/renderPolynomialTerm.js"
 
 export default class IntegerPowerRuleDerivativeTemplate extends Template {
     generateProblem() {

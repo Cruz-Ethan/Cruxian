@@ -1,13 +1,13 @@
 import Subject from "../../classes/Subject.js"
 import Topic from "../../classes/Topic.js"
-import NonZeroDenominatorLimitTemplate from "../templates/NonZeroDenominatorLimitTemplate.jsx"
-import ZeroDenominatorLimitTemplate from "../templates/ZeroDenominatorLimitTemplate.jsx"
-import PolynomialLimitTemplate from "../templates/PolynomiaLimitTemplate.jsx"
-import SquareDerivativeLimitTemplate from "../templates/SquareDerivativeLimitTemplate.jsx"
-import SquareRootDerivativeLimitTemplate from "../templates/SquareRootDerivativeLimitTemplate.jsx"
-import IntegerPowerRuleDerivativeTemplate from "../templates/IntegerPowerRuleDerivativeTemplate.jsx"
-import DenominatorPowerRuleDerivativeTemplate from "../templates/DenominatorPowerRuleDerivativeTemplate.jsx"
-import SurdPowerRuleDerivativeTemplate from "../templates/SurdPowerRuleDerivativeTemplate.jsx"
+import NonZeroDenominatorLimitTemplate from "../templates/calculus/NonZeroDenominatorLimitTemplate.jsx"
+import ZeroDenominatorLimitTemplate from "../templates/calculus/ZeroDenominatorLimitTemplate.jsx"
+import PolynomialLimitTemplate from "../templates/calculus/PolynomiaLimitTemplate.jsx"
+import SquareDerivativeLimitTemplate from "../templates/calculus/SquareDerivativeLimitTemplate.jsx"
+import SquareRootDerivativeLimitTemplate from "../templates/calculus/SquareRootDerivativeLimitTemplate.jsx"
+import IntegerPowerRuleDerivativeTemplate from "../templates/calculus/IntegerPowerRuleDerivativeTemplate.jsx"
+import DenominatorPowerRuleDerivativeTemplate from "../templates/calculus/DenominatorPowerRuleDerivativeTemplate.jsx"
+import SurdPowerRuleDerivativeTemplate from "../templates/calculus/SurdPowerRuleDerivativeTemplate.jsx"
 
 const sbjCalculus = new Subject("Calculus")
 export default sbjCalculus

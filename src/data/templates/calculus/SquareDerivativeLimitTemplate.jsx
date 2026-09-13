@@ -1,7 +1,7 @@
-import Template from "../../classes/Template.js"
-import Problem from "../../classes/Problem.js"
+import Template from "../../../classes/Template.js"
+import Problem from "../../../classes/Problem.js"
 import { MathJax } from 'better-react-mathjax'
-import randomInteger from "../utils/randomInteger.js"
+import randomInteger from "../../utils/randomInteger.js"
 
 export default class SquareDerivativeLimitTemplate extends Template {
     generateProblem() {
