@@ -7,7 +7,7 @@ export default class DictSetDefaultMissingTemplate extends Template {
         const key = `'${randomLower()}'`
         return new Problem(
             <pre className="whitespace-pre-wrap break-words">What happens if you call <code> dct.setdefault({key}) </code> and no such key exists?</pre>,
-            <code>dct sets the {key} to None and returns None.</code>
+            <code>dct sets {key} to None and returns None.</code>
         )
     }
 }

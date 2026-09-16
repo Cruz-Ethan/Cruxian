@@ -24,7 +24,7 @@ export default function Problem({ template, problem, rerender }) {
     }, [isAnswerHidden])
 
     return (
-        <main onKeyDown={handleEnter} className="col-span-12 lg:col-span-8 p-4 bg-white lg:flex lg:items-center lg:justify-center">
+        <main onKeyDown={handleEnter} className="col-span-12 xl:col-span-8 p-4 bg-white xl:flex xl:items-center xl:justify-center">
             <section className="flex flex-col gap-2 items-center">
                 <h1 className="text-lg lg:text-2xl">{problem.question}</h1>
                 {template.imageUrl && <img src={template.imageUrl} alt="Problem Image" className="max-w-[50%]" />}
