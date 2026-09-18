@@ -8,6 +8,7 @@ import tpcPythonStringModifierMethods from "../topics/python/stringModifierMetho
 import tpcPythonStringPredicateMethods from "../topics/python/stringPredicateMethods.js"
 import tpcPythonStringReplaceMethods from "../topics/python/stringReplaceMethods.js"
 import tpcPythonStringSearchMethods from "../topics/python/stringSearchMethods.js"
+import tpcPythonStringSplitMethods from "../topics/python/stringSplitMethods.js"
 
 const sbjPython = new Subject("Python")
 export default sbjPython
@@ -15,6 +16,7 @@ sbjPython.addTopic(tpcPythonStringPredicateMethods)
 sbjPython.addTopic(tpcPythonStringModifierMethods)
 sbjPython.addTopic(tpcPythonStringSearchMethods)
 sbjPython.addTopic(tpcPythonStringReplaceMethods)
+sbjPython.addTopic(tpcPythonStringSplitMethods)
 sbjPython.addTopic(tpcPythonStringMethods)
 sbjPython.addTopic(tpcPythonListOperations)
 sbjPython.addTopic(tpcPythonListMethods)
