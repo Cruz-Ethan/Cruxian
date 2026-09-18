@@ -3,6 +3,7 @@ import tpcPythonDictMethods from "../topics/python/dictMethods.js"
 import tpcPythonListMethods from "../topics/python/listMethods.js"
 import tpcPythonListOperations from "../topics/python/listOperations.js"
 import tpcPythonSetMethods from "../topics/python/setMethods.js"
+import tpcPythonStringMethods from "../topics/python/stringMethods.js"
 import tpcPythonStringModifierMethods from "../topics/python/stringModifierMethods.js"
 import tpcPythonStringPredicateMethods from "../topics/python/stringPredicateMethods.js"
 import tpcPythonStringReplaceMethods from "../topics/python/stringReplaceMethods.js"
@@ -14,6 +15,7 @@ sbjPython.addTopic(tpcPythonStringPredicateMethods)
 sbjPython.addTopic(tpcPythonStringModifierMethods)
 sbjPython.addTopic(tpcPythonStringSearchMethods)
 sbjPython.addTopic(tpcPythonStringReplaceMethods)
+sbjPython.addTopic(tpcPythonStringMethods)
 sbjPython.addTopic(tpcPythonListOperations)
 sbjPython.addTopic(tpcPythonListMethods)
 sbjPython.addTopic(tpcPythonSetMethods)

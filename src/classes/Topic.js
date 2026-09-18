@@ -13,6 +13,10 @@ export default class Topic {
         this.#templates.push(template)
     }
 
+    addTemplatesFromTopic(topic) {
+        topic.#templates.forEach(template => this.addTemplate(template))
+    }
+
     getRandomTemplate() {
         if(!this.#templates) {
             throw new Error(`The topic ${this.#name} doesn't have any templates.`)
