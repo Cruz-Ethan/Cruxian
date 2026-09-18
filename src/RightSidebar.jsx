@@ -8,7 +8,7 @@ export default function RightSidebar({subjectName, topicName}) {
             <ul className="p-4 flex xl:flex-col items-stetch gap-2 text-lg xl:fixed overflow-x-auto xl:overflow-y-auto xl:h-screen xl:w-[100cqw] text-nowrap">
                 {subject.topics.map(topic =>(
                     <li key={topic.name} className="flex">
-                        <Link to={`/problems/${subjectName}/${topic.name}`} className={`truncate rounded py-2 px-4 cursor-pointer flex-1 ${topic.name === topicName ? "bg-purple-400" : "hover:bg-slate-200"} transition duration-200`}>{topic.name}</Link>
+                        <Link to={`/Cruxian/problems/${subjectName}/${topic.name}`} className={`truncate rounded py-2 px-4 cursor-pointer flex-1 ${topic.name === topicName ? "bg-purple-400" : "hover:bg-slate-200"} transition duration-200`}>{topic.name}</Link>
                     </li>)
                 )}
             </ul>

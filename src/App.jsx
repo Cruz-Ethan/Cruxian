@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/problems/:subjectName/:topicName" element={<ProblemsPage />} />
+        <Route path="/Cruxian/problems/:subjectName/:topicName" element={<ProblemsPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
