@@ -17,26 +17,26 @@ import StringStartsWithIndexTemplate from "../../templates/python/str_predicate_
 import StringStartsWithTemplate from "../../templates/python/str_predicate_methods/StringStartsWithTemplate";
 import StringTitleTestTemplate from "../../templates/python/str_predicate_methods/StringTitleTestTemplate";
 
-const tpcStringPredicateMethods = new Topic("String Predicate Methods")
-export default tpcStringPredicateMethods
-tpcStringPredicateMethods.addTemplate(new StringIsAlphaTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsDecimalTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsAlnumTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsAsciiTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsSpaceTemplate())
+const tpcPythonStringPredicateMethods = new Topic("String Predicate Methods")
+export default tpcPythonStringPredicateMethods
+tpcPythonStringPredicateMethods.addTemplate(new StringIsAlphaTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsDecimalTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsAlnumTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsAsciiTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsSpaceTemplate())
 
-tpcStringPredicateMethods.addTemplate(new StringIsUpperTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsLowerTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsUpperTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsLowerTemplate())
 
-tpcStringPredicateMethods.addTemplate(new StringIsIdentifierTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsTitleTemplate())
-tpcStringPredicateMethods.addTemplate(new StringIsPrintableTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsIdentifierTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsTitleTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIsPrintableTemplate())
 
-tpcStringPredicateMethods.addTemplate(new StringIdentifierTestTemplate())
-tpcStringPredicateMethods.addTemplate(new StringTitleTestTemplate())
-tpcStringPredicateMethods.addTemplate(new StringPrintableTestTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringIdentifierTestTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringTitleTestTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringPrintableTestTemplate())
 
-tpcStringPredicateMethods.addTemplate(new StringStartsWithTemplate())
-tpcStringPredicateMethods.addTemplate(new StringStartsWithIndexTemplate())
-tpcStringPredicateMethods.addTemplate(new StringEndsWithTemplate())
-tpcStringPredicateMethods.addTemplate(new StringEndsWithIndexTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringStartsWithTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringStartsWithIndexTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringEndsWithTemplate())
+tpcPythonStringPredicateMethods.addTemplate(new StringEndsWithIndexTemplate())
