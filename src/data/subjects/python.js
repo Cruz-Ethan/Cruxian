@@ -1,5 +1,7 @@
 import Subject from "../../classes/Subject.js"
+import tpcPythonDataStructures from "../topics/python/dataStructures.js"
 import tpcPythonDictMethods from "../topics/python/dictMethods.js"
+import tpcPythonIterators from "../topics/python/iterators.js"
 import tpcPythonListMethods from "../topics/python/listMethods.js"
 import tpcPythonListOperations from "../topics/python/listOperations.js"
 import tpcPythonSetMethods from "../topics/python/setMethods.js"
@@ -22,3 +24,5 @@ sbjPython.addTopic(tpcPythonListOperations)
 sbjPython.addTopic(tpcPythonListMethods)
 sbjPython.addTopic(tpcPythonSetMethods)
 sbjPython.addTopic(tpcPythonDictMethods)
+sbjPython.addTopic(tpcPythonIterators)
+sbjPython.addTopic(tpcPythonDataStructures)
