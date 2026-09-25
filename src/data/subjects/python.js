@@ -5,6 +5,7 @@ import tpcPythonIterators from "../topics/python/iterators.js"
 import tpcPythonListMethods from "../topics/python/listMethods.js"
 import tpcPythonListOperations from "../topics/python/listOperations.js"
 import tpcPythonMathFunctions from "../topics/python/mathFunctions.js"
+import tpcPythonRandomFunctions from "../topics/python/randomFunctions.js"
 import tpcPythonSetMethods from "../topics/python/setMethods.js"
 import tpcPythonStringMethods from "../topics/python/stringMethods.js"
 import tpcPythonStringModifierMethods from "../topics/python/stringModifierMethods.js"
@@ -28,3 +29,4 @@ sbjPython.addTopic(tpcPythonDictMethods)
 sbjPython.addTopic(tpcPythonIterators)
 sbjPython.addTopic(tpcPythonDataStructures)
 sbjPython.addTopic(tpcPythonMathFunctions)
+sbjPython.addTopic(tpcPythonRandomFunctions)
