@@ -5,7 +5,7 @@ export default class ArrayForEachTemplate extends Template {
     generateProblem() {
         return new Problem(
             <pre className="whitespace-pre-wrap break-words">Print each word in the array "words".</pre>,
-            <code>words.forEach(word =&gt; &lcub;console.log(word)&rcub;)</code>
+            <code>words.forEach(word =&gt; &#123;console.log(word)&#125;)</code>
         )
     }
 }
