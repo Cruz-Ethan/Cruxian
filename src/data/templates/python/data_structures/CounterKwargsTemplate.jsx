@@ -8,7 +8,7 @@ export default class CounterKwargsTemplate extends Template {
         const oranges = randomInteger(1, 10)
         return new Problem(
             <pre className="whitespace-pre-wrap break-words">Create a Python counter apples={apples} and oranges={oranges}.</pre>,
-            <code>Counter({apples}=1, {oranges}=3)</code>
+            <code>Counter(apples={apples}, oranges={oranges})</code>
         )
     }
 }

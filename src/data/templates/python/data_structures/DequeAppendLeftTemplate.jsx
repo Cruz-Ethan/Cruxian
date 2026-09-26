@@ -7,7 +7,7 @@ export default class DequeAppendLeftTemplate extends Template {
         const item = randomInteger()
         return new Problem(
             <pre className="whitespace-pre-wrap break-words">Add {item} to the start of the deque <code> dq </code>.</pre>,
-            <code>dq.appendleft(item)</code>
+            <code>dq.appendleft({item})</code>
         )
     }
 }
