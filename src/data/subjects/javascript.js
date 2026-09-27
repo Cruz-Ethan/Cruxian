@@ -1,6 +1,7 @@
 import Subject from "../../classes/Subject";
 import tpcJavaScriptArrayMethods from "../topics/javascript/arrayMethods";
 import tpcJavaScriptDates from "../topics/javascript/dateMethods";
+import tpcJavaScriptDOM from "../topics/javascript/dom";
 import tpcJavaScriptMathMethods from "../topics/javascript/mathMethods";
 import tpcJavaScriptOOP from "../topics/javascript/oop";
 import tpcJavaScriptPromises from "../topics/javascript/promises";
@@ -14,3 +15,4 @@ sbjJavascript.addTopic(tpcJavaScriptMathMethods)
 sbjJavascript.addTopic(tpcJavaScriptDates)
 sbjJavascript.addTopic(tpcJavaScriptPromises)
 sbjJavascript.addTopic(tpcJavaScriptOOP)
+sbjJavascript.addTopic(tpcJavaScriptDOM)
