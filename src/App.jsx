@@ -1,3 +1,4 @@
+import CreditsPage from "./CreditsPage"
 import LeftSidebar from "./LeftSidebar"
 import NotFound from "./NotFound"
 import ProblemsPage from "./ProblemsPage"
@@ -8,6 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/Cruxian/credits/:subjectName" element={<CreditsPage />} />
         <Route path="/Cruxian/problems/:subjectName/:topicName" element={<ProblemsPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

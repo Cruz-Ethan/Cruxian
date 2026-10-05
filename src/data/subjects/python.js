@@ -30,3 +30,5 @@ sbjPython.addTopic(tpcPythonIterators)
 sbjPython.addTopic(tpcPythonDataStructures)
 sbjPython.addTopic(tpcPythonMathFunctions)
 sbjPython.addTopic(tpcPythonRandomFunctions)
+
+sbjPython.addSource("W3 Schools", "https://www.w3schools.com/python/")

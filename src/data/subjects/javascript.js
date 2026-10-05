@@ -16,3 +16,6 @@ sbjJavascript.addTopic(tpcJavaScriptDates)
 sbjJavascript.addTopic(tpcJavaScriptPromises)
 sbjJavascript.addTopic(tpcJavaScriptOOP)
 sbjJavascript.addTopic(tpcJavaScriptDOM)
+
+sbjJavascript.addSource("W3 Schools", "https://www.w3schools.com/js/")
+sbjJavascript.addSource("Coding2GO", "https://www.youtube.com/@coding2go")

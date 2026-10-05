@@ -11,6 +11,7 @@ export default function RightSidebar({subjectName, topicName}) {
                         <Link to={`/Cruxian/problems/${subjectName}/${topic.name}`} className={`truncate rounded py-2 px-4 cursor-pointer flex-1 ${topic.name === topicName ? "bg-purple-400" : "hover:bg-slate-200"} transition duration-200`}>{topic.name}</Link>
                     </li>)
                 )}
+                <Link to={`/Cruxian/credits/${subjectName}`} className={`truncate rounded py-2 px-4 cursor-pointer ${topicName === 'Credits' ? "bg-purple-400" : "hover:bg-slate-200"} transition duration-200`}>Credits</Link>
             </ul>
         </nav>
     )
