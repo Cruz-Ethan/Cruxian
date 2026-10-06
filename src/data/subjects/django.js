@@ -5,6 +5,7 @@ import tpcDjangoGenericFields from "../topics/django/genericFields";
 import tpcDjangoMetaOptions from "../topics/django/metaOptions";
 import tpcDjangoModels from "../topics/django/models";
 import tpcDjangoTerminalCommands from "../topics/django/terminalCommands";
+import tpcDjangoValidators from "../topics/django/validators";
 
 const sbjDjango = new Subject("Django")
 export default sbjDjango
@@ -14,6 +15,7 @@ sbjDjango.addTopic(tpcDjangoModels)
 sbjDjango.addTopic(tpcDjangoFieldOptions)
 sbjDjango.addTopic(tpcDjangoMetaOptions)
 sbjDjango.addTopic(tpcDjangoFieldLookups)
+sbjDjango.addTopic(tpcDjangoValidators)
 
 sbjDjango.addSource("Django Documentation", "https://docs.djangoproject.com/en/6.1/")
 sbjDjango.addSource("BugBytes", "https://www.youtube.com/@bugbytes3923")

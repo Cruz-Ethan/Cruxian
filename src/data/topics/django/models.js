@@ -9,6 +9,7 @@ import ManagerExcludeTemplate from "../../templates/django/models/ManageExcludeT
 import ManagerAllTemplate from "../../templates/django/models/ManagerAllTemplate";
 import ManagerFilterTemplate from "../../templates/django/models/ManagerFilterTemplate";
 import ManagerGetTemplate from "../../templates/django/models/ManagerGetTemplate";
+import ManagerUpdateTemplate from "../../templates/django/models/ManagerUpdateTemplate";
 import ModelDoesNotExistTemplate from "../../templates/django/models/ModelDoesNotExistTemplate";
 import ModelHeaderTemplate from "../../templates/django/models/ModelHeaderTemplate";
 import ModelImportTemplate from "../../templates/django/models/ModelImportTemplate";
@@ -23,6 +24,7 @@ tpcDjangoModels.addTemplate(new ManagerAllTemplate())
 tpcDjangoModels.addTemplate(new ManagerGetTemplate())
 tpcDjangoModels.addTemplate(new ManagerFilterTemplate())
 tpcDjangoModels.addTemplate(new ManagerExcludeTemplate())
+tpcDjangoModels.addTemplate(new ManagerUpdateTemplate())
 
 tpcDjangoModels.addTemplate(new ModelDoesNotExistTemplate())
 
