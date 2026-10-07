@@ -1,11 +1,8 @@
 import Subject from "../../classes/Subject.js"
-import Topic from "../../classes/Topic.js"
+import tpcPhysicsUAM from "../topics/physics/UAM.js"
 
 const sbjPhysics = new Subject("Physics")
 export default sbjPhysics
+sbjPhysics.addTopic(tpcPhysicsUAM)
 
-const tpcUAM = new Topic("UAM")
-sbjPhysics.addTopic(tpcUAM)
-
-const tpcForce = new Topic("Force")
-sbjPhysics.addTopic(tpcForce)
+sbjPhysics.addSource("University Physics", "https://openstax.org/books/university-physics-volume-1/pages/preface")
